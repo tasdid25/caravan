@@ -1,0 +1,166 @@
+*{margin:0;padding:0}
+body{
+	background-color:#EFE9B3;
+}
+#wrapper{
+	
+	width:960px;
+	margin:10px auto;
+	
+}
+#header{
+	background-color:#000000;
+	padding:20px;
+	border-bottom:5px solid #000000;
+}
+
+#header h2{
+	color:#fff;
+	font-family:Fjalla One;
+	font-size: 40px;
+}
+#header p{
+	color:#77852F;
+	font-family:Space Mono;
+}
+#nav{
+	background-color:#000000;
+	height:38px;
+	border-bottom:5px solid #000000;
+	
+	
+}
+#nav ul{
+	list-style-type:none;
+	background-color:#fff;
+}
+#nav ul li{
+	float:left;
+	border-right:1px solid #000000;
+	position:relative;
+	font-family:Fjalla One;
+	
+}
+#nav ul li:last-child{
+	border:none;
+	
+}
+
+
+
+#nav ul li a{
+	text-decoration:none;
+	color:white;
+	display:block;
+	padding:10px 20px;
+}
+#nav ul li a:hover{
+	
+	border-bottom:3px solid #2DA1C4; 
+	
+}
+#nav ul li ul{
+	position:absolute;
+	left:-99999px;
+	background:#fff;
+}
+#nav ul li ul a{
+	text-decoration:none;
+	color:black;
+
+}
+
+#nav ul li:hover ul{
+	left:0;
+    
+}
+#nav ul li ul li{
+	float:none;
+	border-right:none;
+	border-bottom:1px solid #6B7221;
+	width:180px;	
+    
+}
+#slider img{
+	width:960px;
+	vertical-align:middle;
+	
+}
+#content_wrapper{
+	background-color:#EEF0EB;
+	border-top:5px solid #000000;
+	padding:10px;
+	overflow:hidden;
+	
+}
+#content{
+	float:left;
+	width:500px;
+	padding:15px;
+	font-family:roboto light;
+	margin: 15px;
+  border: 1px solid #ccc;
+}
+
+#content:hover{
+border: 1px solid #777;	
+
+}
+
+#content h2{
+	font-family:Fjalla One;
+	color:#000000;
+	
+}
+#content p{ 
+	font-size: 15px;
+	border-bottom: 5px solid transparent ;
+	}
+#content img{
+	width:300px; 
+	margin: 5px;
+  border: 1px solid #ccc;
+	 float: left;
+}
+
+
+#sidebar{
+	float:left;
+	width:300px;
+	padding:18px;
+	margin-left: 25px;
+}
+#sidebar h2{
+	color:#000000;
+	font-family:Fjalla One;
+}
+#sidebar ul li a{
+	text-decoration:none;
+	color:Black;
+	padding:3px;
+	display:block;
+	
+}
+#sidebar ul{
+	list-style-type:none;
+	font-family:roboto ;
+    font-size:15px;
+
+}
+#sidebar ul li a:hover{
+	
+
+border-bottom:2px solid #2DA1C4;
+
+}
+
+#footer{
+	background-color:Black;
+	Padding:15px;
+	text-align:center
+
+}
+#footer p{
+	color:#fff;
+	font-family:Fjalla One;
+}
