@@ -1,2 +1,2 @@
 # caravan
-travel blog page
+travel blog landing page
